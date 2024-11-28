@@ -1,0 +1,161 @@
+/* تنظیمات کلی صفحه */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.browser-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.browser-header {
+    background-color: #d3d3d3; /* رنگ پس‌زمینه یقه‌ای برای هدر */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d3d3d3; /* رنگ پس‌زمینه یقه‌ای */
+    padding: 5px; /* فاصله دادن از گوشه‌ها */
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: 120px; /* تنظیم اندازه لوگو */
+}
+
+/* نوار جستجو */
+.search-bar {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 1.2em;
+    outline: none;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+#search-button:hover {
+    background-color: #45a049;
+}
+
+/* بخش نتایج جستجو */
+.results-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.result-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-item:hover {
+    background-color: #efefef;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.result-item h3 {
+    font-size: 1.4em;
+    color: #007bff;
+    margin: 0;
+}
+
+.result-item p {
+    color: #777;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* بخش iframe برای نمایش سایت */
+.iframe-container {
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* استایل ریسپانسیو برای صفحه */
+@media (max-width: 768px) {
+    .search-bar {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 80px; /* کاهش اندازه لوگو در نمایش موبایل */
+    }
+
+    .browser-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+}
+/* استایل تصویر نتایج جستجو */
+.result-item img.result-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

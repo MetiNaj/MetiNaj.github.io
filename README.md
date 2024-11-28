@@ -1,55 +1,13 @@
- <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #1a73e8;
-        }
-        p, ul {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        pre {
-            background-color: #282c34;
-            color: white;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .highlight {
-            color: #ff6347;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            font-size: 14px;
-            margin-top: 20px;
-            color: #888;
-        }
-        .emoji {
-            font-size: 30px;
-        }
-        .gif-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-    </style>
+
 </head>
 <body>
     <div class="container">
-        <h1>Zexa-Browser 🌐</h1>
+     </ul>
+     <div class="gif-container">
+ <img 
+  src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanYxYzF5bWR1bmFqMXZ6MnY0eXh6djliNnEzM2xjMGNrMnF5NHNxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IwTWTsUzmIicM/giphy.gif" alt="gif" />
+     </div>
+<h1>Zexa-Browser 🌐</h1>
         <p>Welcome to <strong>Zexa-Browser</strong>! A sleek, responsive, and modern web browser built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. This browser leverages the Google Custom Search API to allow users to perform searches directly within the browser, bringing a smooth and efficient search experience. 🚀</p>
         <h2>Features ✨</h2>
         <ul>
@@ -90,64 +48,13 @@ const apiUrl = `https://www.googleapis.com/customsearch/v1?key=YOUR_API_KEY&cx=Y
             <li>Email: <a href="mailto:your-email@example.com">mahdinajar1385@gmail.com</a> 📧</li>
             <li>GitHub: <a href="https://github.com/your-username" target="_blank">MetiNaj</a> 👨‍💻</li>
         </ul>
-        <div class="gif-container">
-            <img src="https://media.giphy.com/media/3oEdv2eJ90wQMb0q4Y/giphy.gif" alt="Excited GIF" />
-        </div>
+               <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2Zkbjk0aTc3czBiMTQ0OXNuNGNmaGR1ZGd0NzJwaDNlczN1a2wwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" alt="گیف هیجان‌زده" />
         <footer>
             <p>&copy; 2024 Zexa-Browser. All rights reserved. 🚀</p>
         </footer>
     </div>
 </body>
 </html>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 20px;
-            direction: rtl;
-        }
-        h1, h2 {
-            color: #1a73e8;
-        }
-        p, ul {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        pre {
-            background-color: #282c34;
-            color: white;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .highlight {
-            color: #ff6347;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            font-size: 14px;
-            margin-top: 20px;
-            color: #888;
-        }
-        .emoji {
-            font-size: 30px;
-        }
-        .gif-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -192,8 +99,7 @@ const apiUrl = `https://www.googleapis.com/customsearch/v1?key=YOUR_API_KEY&cx=Y
             <li>ایمیل: <a href="mailto:your-email@example.com">mahdinajar1385@gmail.com</a> 📧</li>
             <li>گیت‌هاب: <a href="https://github.com/your-username" target="_blank">MetiNaj</a> 👨‍💻</li>
         </ul>
-        <div class="gif-container">
-            <img src="https://media.giphy.com/media/3oEdv2eJ90wQMb0q4Y/giphy.gif" alt="گیف هیجان‌زده" />
+        <div class=
         </div>
         <footer>
             <p>&copy; 2024 Zexa-Browser. کلیه حقوق محفوظ است. 🚀</p>
